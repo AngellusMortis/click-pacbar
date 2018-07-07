@@ -18,15 +18,15 @@ Same interface as `click.progressbar` (http://click.pocoo.org/6/utils/#showing-p
 
 Made mostly for my personal use, so use at your own risk. Enjoy!
 
-```
-import time
+.. code-block:: python
 
-from pacbar import pacbar
+    import time
 
-with pacbar(range(10)) as bar:
+    from pacbar import pacbar
+
+    with pacbar(range(10)) as bar:
     for x in bar:
-        time.sleep(1)
-```
+            time.sleep(1)
 
 Credits
 -------
