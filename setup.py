@@ -38,7 +38,7 @@ setup(
     long_description=readme + '\n\n' + history,
     include_package_data=True,
     keywords='pacbar',
-    name='pacbar',
+    name='click-pacbar',
     packages=find_packages(include=['pacbar']),
     setup_requires=setup_requirements,
     test_suite='tests',
