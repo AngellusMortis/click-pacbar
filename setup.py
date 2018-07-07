@@ -11,11 +11,11 @@ with open('README.rst') as readme_file:
 with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
-requirements = ['Click>=6.0', ]
+requirements = ['click>=6.0', 'colorama']
 
-setup_requirements = [ ]
+setup_requirements = []
 
-test_requirements = [ ]
+test_requirements = []
 
 setup(
     author="Christopher Bailey",
@@ -33,11 +33,6 @@ setup(
         'Programming Language :: Python :: 3.6',
     ],
     description="Helper method to turn the click.progressbar into a Pacman!",
-    entry_points={
-        'console_scripts': [
-            'pacbar=pacbar.cli:main',
-        ],
-    },
     install_requires=requirements,
     license="MIT license",
     long_description=readme + '\n\n' + history,
@@ -48,7 +43,7 @@ setup(
     setup_requires=setup_requirements,
     test_suite='tests',
     tests_require=test_requirements,
-    url='https://github.com/AngellusMortis/pacbar',
+    url='https://github.com/AngellusMortis/click-pacbar',
     version='0.1.0',
     zip_safe=False,
 )

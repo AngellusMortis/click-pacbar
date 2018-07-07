@@ -2,31 +2,31 @@
 Click Pacbar
 ============
 
-
 .. image:: https://img.shields.io/pypi/v/pacbar.svg
         :target: https://pypi.python.org/pypi/pacbar
-
-.. image:: https://img.shields.io/travis/AngellusMortis/pacbar.svg
-        :target: https://travis-ci.org/AngellusMortis/pacbar
-
-.. image:: https://readthedocs.org/projects/pacbar/badge/?version=latest
-        :target: https://pacbar.readthedocs.io/en/latest/?badge=latest
-        :alt: Documentation Status
-
-
-
 
 Helper method to turn the click.progressbar into a Pacman!
 
 
 * Free software: MIT license
-* Documentation: https://pacbar.readthedocs.io.
 
 
 Features
 --------
 
-* TODO
+Same interface as `click.progressbar` (http://click.pocoo.org/6/utils/#showing-progress-bars), just use `pacbar`.
+
+Made mostly for my personal use, so use at your own risk. Enjoy!
+
+```
+import time
+
+from pacbar import pacbar
+
+with pacbar(range(10)) as bar:
+    for x in bar:
+        time.sleep(1)
+```
 
 Credits
 -------
