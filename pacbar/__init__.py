@@ -4,6 +4,6 @@
 
 __author__ = """Christopher Bailey"""
 __email__ = 'cbailey@mort.is'
-__version__ = '0.1.1'
+__version__ = '0.1.2'
 
 from .pacbar import pacbar  # noqa

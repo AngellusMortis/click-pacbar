@@ -2,8 +2,8 @@
 Click Pacbar
 ============
 
-.. image:: https://img.shields.io/pypi/v/pacbar.svg
-        :target: https://pypi.python.org/pypi/pacbar
+.. image:: https://img.shields.io/pypi/v/click-pacbar.svg
+        :target: https://pypi.python.org/pypi/click-pacbar
 
 Helper method to turn the click.progressbar into a Pacman!
 
